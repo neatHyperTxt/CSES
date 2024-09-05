@@ -1,3 +1,8 @@
+// Uses multisource BFS 
+// Treat Monsters as volcano point and propogae the free nodes that will get occupied first
+// for the player run a second bfs and check if he can reach the free node before lava reaches there.
+
+
 #include<bits/stdc++.h>
 typedef long long int ll;
 #define MOD 998244353
